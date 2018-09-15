@@ -1,0 +1,38 @@
+{
+  "name": "blog-app-mongoose",
+  "version": "1.0.0",
+  "description": "Thinkful challenge: Express blog app using Mongoose",
+  "main": "config.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjotrpaan/blog-app-mongoose.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Mongo",
+    "Mongoose",
+    "Mocha",
+    "Chai"
+  ],
+  "author": "Peter Pan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjotrpaan/blog-app-mongoose/issues"
+  },
+  "homepage": "https://github.com/pjotrpaan/blog-app-mongoose#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.15",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
